@@ -1,0 +1,200 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-type: none;
+}
+
+
+
+
+
+.apply{
+    background-color: rgba(200, 202, 202, 0.26);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 15px;
+    position: relative;
+    
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px  rgba(8, 0, 0, 0.518);
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 500px;
+    height: 460px;
+    padding: 25px;
+    border-radius: 20px;
+    position: relative;
+    color: #fff;
+    background: linear-gradient(45deg, #2793ae, #273e60);
+    background-color: #06849e;
+    box-shadow: 0px 0px 15px  rgba(8, 0, 0, 0.418);
+    
+  }
+  .form1:hover{
+    background: linear-gradient(45deg, #273e60,  #2793ae);
+    transition: 1s;
+  
+  }
+  
+  
+  .message{
+    font-size: 17px;
+    position: relative;
+    left: 95px;
+    
+  }
+  
+  .form1 label {
+    position: relative;
+  }
+  
+  .form1 label .input {
+    background-color: #fdfafa;
+    color: #070000;
+    width: 96%;
+    padding: 20px 5px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(14, 12, 12, 0.886);
+    border-radius: 30px;
+    transition: 1s;
+    box-shadow: 0px 0px 15px  rgba(8, 0, 0, 0.318);
+    
+  }
+  .form1 select{
+    background-color: #fdfafa;
+    color: #070000;
+    width: 100%;
+    padding: 20px 5px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(14, 12, 12, 0.886);
+    border-radius: 30px;
+    transition: 1s;
+    font-size: 14px;
+    font-weight: 2000;
+    box-shadow: 0px 0px 15px  rgba(8, 0, 0, 0.318);
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  .input {
+    font-size:10px;
+  }
+  
+  
+  .flfl{
+    opacity:0;
+    position: relative;
+    bottom: 21px;
+  }
+  .lflf{
+    outline: 0;
+    border: 1px solid #999;
+    border-radius: 10rem;
+    background-color: white;
+    color: black;
+    height: 40px;
+    
+  }
+  .lflf p{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-weight: 6000;
+      font-size: 16px;
+      position: relative;
+      left: 20px;
+      bottom: 7px;
+      
+      
+  }
+  
+  
+  .form1 label{
+    font-size: 11px;
+    padding: 2px 0;
+    font-weight: 600;
+  }
+  
+  
+  
+  textarea {
+    height: 80px;
+    resize: none;
+    outline: 0;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 15px  rgba(8, 0, 0, 0.318);
+  }
+  
+  
+  .submit{
+    
+    height: 52px;
+    width: 200px;
+    border-radius: 360px;
+    background: linear-gradient(45deg, #273e60,  #2793ae);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Damion', cursive;
+    border: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+    margin-left:110px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 15px  rgba(8, 0, 0, 0.418);
+    
+  }
+  .submit:hover{
+    box-shadow: inset 5px 5px 10px#91eae4, inset -5px -5px 10px  rgb(7, 82, 220);
+    color: #ffffff;
+    transition: 0.8s;
+    background-size: 320%;
+    background-position: right center;
+      
+  }
+  #close{
+    color: #515151;
+    float: right;
+    font-size: 30px;
+    font-weight: 1000;
+    position: relative;
+    bottom: 10px;
+  }
+  
+  #close:hover,
+  #close:focus{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  @media (max-width:800px) {
+    .apply{
+        width: 95%;
+    }
+
+
+
+  }
